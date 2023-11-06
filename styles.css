@@ -1,0 +1,32 @@
+/* Define initial styles for the navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    z-index: 100;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Define styles for hover effect */
+.navbar a:hover {
+    color: #ff9900;
+}
